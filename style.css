@@ -1,0 +1,52 @@
+body{
+    background-image: url("images/b_body.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainDiv{
+    background-image: url("images/b_coffee.jpg") ;
+    width: 900px;
+    margin: auto auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 10px 18px;
+}
+
+.topLine{
+    width: 100%;
+}
+.imageStyle{
+    float: left;
+    position: relative;
+    top: -100px;
+
+}
+
+.imageStyle img{
+    padding: 10px 5px;
+}
+
+.imageStyle2{
+    width: 100%;
+}
+.imageStyle2 div{
+    float: left;
+    padding: 30px 30px;
+    height: 300px;
+}
